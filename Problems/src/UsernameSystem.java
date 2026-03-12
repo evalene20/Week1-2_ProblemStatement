@@ -1,6 +1,7 @@
 import java.util.*;
 
-public class Problem1UsernameSystem {
+public class UsernameSystem
+{
 
     private Map<String, Integer> usernameMap = new HashMap<>();
     private Map<String, Integer> attemptFrequency = new HashMap<>();
@@ -29,7 +30,7 @@ public class Problem1UsernameSystem {
     }
 
     public static void main(String[] args) {
-        Problem1UsernameSystem system = new Problem1UsernameSystem();
+        UsernameSystem system = new UsernameSystem();
 
         system.registerUser("john_doe", 1);
 

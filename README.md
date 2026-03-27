@@ -1,4 +1,4 @@
-# Hash Table Based System Design Problems  
+# Week 1 & 2: Hash Table Based System Design Problems  
 **Core Java | Data Structures | Real-World Applications**
 
 ## Overview

@@ -1,99 +1,83 @@
-# Palindrome Checker – Weekly Progress (UC1–UC10)
+# Hash Table Based System Design Problems  
+**Core Java | Data Structures | Real-World Applications**
 
 ## Overview
-This project is developed incrementally across multiple weeks, with each branch representing a specific use case (UC). Each stage introduces new concepts in Core Java and Data Structures, evolving from basic program execution to optimized palindrome checking techniques.
+This project contains a collection of **10 real-world system design problems** implemented using **Core Java and Hash Tables**.
 
-All weekly implementations are available in their respective branches.  
-- `master` → Week 1  
-- Other weeks → Refer to corresponding branch names  
+Each problem demonstrates how hash-based data structures enable **high-performance, scalable, and real-time systems** across domains like social media, e-commerce, networking, analytics, and caching.
 
 ---
 
-## Use Cases
+## Learning Objectives
 
-### UC1: Application Entry & Welcome Message
-- Displays application name and version at startup  
-- Introduces program flow and entry point  
-
-**Concepts:** Class, `main()` method, `static`, console output  
-
----
-
-### UC2: Hardcoded Palindrome Check
-- Checks a predefined string  
-- Prints whether it is a palindrome  
-
-**Concepts:** String, if-else, basic logic  
+- Apply hash tables to real-world scenarios  
+- Achieve O(1) lookup performance  
+- Handle collisions and optimize efficiency  
+- Design scalable backend systems  
+- Understand time-based and frequency-based problems  
 
 ---
 
-### UC3: String Reverse Method
-- Reverses string using loop  
-- Compares original and reversed  
+## Concepts Covered
 
-**Concepts:** Loops, string immutability, `equals()`  
-
----
-
-### UC4: Character Array Approach
-- Converts string to `char[]`  
-- Uses two-pointer comparison  
-
-**Concepts:** Arrays, indexing, two-pointer technique  
+- HashMap and hashing fundamentals  
+- Collision handling (chaining, open addressing)  
+- Frequency counting  
+- LRU caching  
+- Time-based operations (TTL, rate limiting)  
+- Real-time analytics processing  
+- System design thinking  
 
 ---
 
-### UC5: Stack-Based Approach
-- Push characters to stack  
-- Pop and compare  
+## Problems Included
 
-**Concepts:** Stack (LIFO), push/pop operations  
+### 1. Username Availability Checker
+Real-time username lookup, suggestions, and popularity tracking  
 
----
+### 2. Flash Sale Inventory Manager
+High-concurrency stock handling with oversell prevention  
 
-### UC6: Queue + Stack Comparison
-- Uses both queue and stack  
-- Compares FIFO vs LIFO behavior  
+### 3. DNS Cache with TTL
+Fast domain resolution with expiration and cache statistics  
 
-**Concepts:** Queue (FIFO), data structure comparison  
+### 4. Plagiarism Detection System
+Document similarity detection using n-gram hashing  
 
----
+### 5. Real-Time Analytics Dashboard
+Track page views, unique users, and traffic sources  
 
-### UC7: Deque Optimization
-- Uses deque for front and rear comparison  
-- Eliminates extra structures  
+### 6. Distributed Rate Limiter
+Token bucket algorithm for API request limiting  
 
-**Concepts:** Deque, efficient data handling  
+### 7. Autocomplete System
+Search suggestions using prefix matching and frequency  
 
----
+### 8. Parking Lot Management
+Collision handling using open addressing and probing  
 
-### UC8: Linked List Approach
-- Converts string to linked list  
-- Reverses second half and compares  
+### 9. Fraud Detection (Two-Sum Variants)
+Detect suspicious transaction patterns efficiently  
 
-**Concepts:** Linked List, fast/slow pointers, in-place reversal  
-
----
-
-### UC9: Recursive Approach
-- Uses recursion to compare characters  
-
-**Concepts:** Recursion, base condition, call stack  
+### 10. Multi-Level Cache System
+L1, L2, L3 caching with LRU eviction  
 
 ---
 
-### UC10: Advanced Palindrome Check
-- Ignores spaces and case sensitivity  
-- Applies preprocessing before validation  
+## Project Structure
+<img width="246" height="424" alt="image" src="https://github.com/user-attachments/assets/4a867e02-760f-4728-af91-1fb2b3e6af15" />
 
-**Concepts:** String normalization, regex  
 
 ---
 
-## Learning Outcome
-- Strong understanding of multiple palindrome-solving techniques  
-- Practical use of data structures (Stack, Queue, Deque, Linked List)  
-- Improved problem-solving and optimization skills  
-- Clear understanding of when and why to use different approaches  
+## How to Run
 
----
+### Prerequisites
+- Java JDK 8 or above  
+- IntelliJ IDEA / Eclipse / VS Code  
+
+### Compile & Run Example
+
+```bash
+javac src/UsernameSystem.java
+java -cp src UsernameSystem
